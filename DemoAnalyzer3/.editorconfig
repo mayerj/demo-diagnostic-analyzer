@@ -1,0 +1,13 @@
+root = true
+
+[*.cs]
+indent_style = tab
+dotnet_sort_system_directives_first = true
+
+dotnet_style_qualification_for_field = false:error
+dotnet_style_qualification_for_property = false:error
+dotnet_style_qualification_for_method = false:error
+dotnet_style_qualification_for_event = false:error
+#charset = ??
+dotnet_style_require_accessibility_modifiers = always:error
+csharp_preferred_modifier_order = public,private,protected,internal,static,extern,new,virtual,abstract,sealed,override,readonly,unsafe,volatile,async
